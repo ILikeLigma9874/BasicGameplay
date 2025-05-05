@@ -344,6 +344,8 @@ GameObject:
   - component: {fileID: 8101378634893918257}
   - component: {fileID: 8101378634959516889}
   - component: {fileID: 4703918452538227254}
+  - component: {fileID: 5055512311418197722}
+  - component: {fileID: 1460389375854009642}
   m_Layer: 0
   m_Name: Deer
   m_TagString: Untagged
@@ -420,6 +422,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bound: -16.38
+--- !u!65 &5055512311418197722
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8101378634886507191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20376757, y: 0.48036656, z: 0.4743362}
+  m_Center: {x: 0.004838651, y: 0.24231829, z: 0.024447313}
+--- !u!114 &1460389375854009642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8101378634886507191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687f5a1d2d102154299ccd2cc5741eea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8101378634886528827
 GameObject:
   m_ObjectHideFlags: 0
